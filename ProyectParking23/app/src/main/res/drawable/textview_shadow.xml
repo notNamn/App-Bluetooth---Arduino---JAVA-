@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/textview_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="4dp" />
+            <padding
+                android:bottom="5dp"
+                android:left="5dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <size
+                android:width="200dp"
+                android:height="50dp" />
+        </shape>
+    </item>
+    <item android:right="1dp" android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorCustomColor1Container_mediumContrast" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list>
